@@ -1,0 +1,20 @@
+body {
+  background-color: #fff;
+}
+
+.bg {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.path {
+  animation: draw 5.0s infinite;
+}
+
+ @keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
