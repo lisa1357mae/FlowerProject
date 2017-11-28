@@ -8,7 +8,7 @@ class ArrangeController < ApplicationController
   end
 
   def sendFlowers
-    from = Email.new(email: 'rose@example.com')
+    from = Email.new(email: 'flowers@wildflower.love')
     to = Email.new(email: params[:email])
     subject = "#{params[:name]}, someone sent you flowers!"
     content = Content.new(type: 'text/plain', value: params[:message])

@@ -94,6 +94,7 @@ header {
   margin: 50px auto 100px auto;
 }
 
+
 input {
   font-family: 'Lato', sans-serif;
   font-size: 0.875em;
@@ -168,12 +169,13 @@ textarea:hover {
 }
 
 #arrangement_canvas {
-  width: 600px;
+  width: 500px;
   height: 450px;
   border: 2px solid pink;
-  margin: 0px auto 0px auto;
+  margin: 50px auto 100px auto;
   position: relative;
 }
+
 
 .arrangeable_gimper {
   position: absolute;
@@ -182,7 +184,7 @@ textarea:hover {
   height: 150px;
 }
 
-#lil_gimper_drag {
+#lil_gimper_drag_1 {
   left: 0;
 }
 

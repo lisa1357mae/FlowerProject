@@ -1,12 +1,14 @@
 <header>SEND YOUR FLOWERS</header>
 
+
+
 <div id='arrangement_canvas'>
   <% if params[:gimps].include? "1" %>
-    <div class="arrangeable_gimper" id="lil_gimper_drag"><%= image_tag "flower2.png" %></div>
-    <script>dragElement(document.getElementById("lil_gimper_drag"));</script>
+    <div class="arrangeable_gimper" id="lil_gimper_drag_1"><%= image_tag "flower1.png" %></div>
+    <script>dragElement(document.getElementById("lil_gimper_drag_1"));</script>
   <% end %>
   <% if params[:gimps].include? "2" %>
-    <div class="arrangeable_gimper" id="lil_gimper_drag_2"><%= image_tag "flower1.png" %></div>
+    <div class="arrangeable_gimper" id="lil_gimper_drag_2"><%= image_tag "OrangeGimper.png" %></div>
     <script>dragElement(document.getElementById("lil_gimper_drag_2"));</script>
   <% end %>
   <% if params[:gimps].include? "3" %>
@@ -15,6 +17,7 @@
   <% end %>
   <%= params[:gimps] %>
 </div>
+
 
 <button onclick="generate_img();">make image</button>
 
