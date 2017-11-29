@@ -1,6 +1,7 @@
 
 body.home {
-  background-image:url("backFlower7.png");
+  background-image:url("smallFrontBackground.png");
+  background-color:black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -9,7 +10,8 @@ body.home {
 }
 
 body.arrange {
-  background-image:url("darkMountain.png");
+  background-image:url("ArrBackground.png");
+  background-color:black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -21,4 +23,8 @@ html {
    margin: 0px;
    height: 100%;
    width: 100%;
+}
+
+h2 {
+  text-align: center;
 }

@@ -13,8 +13,10 @@
 <div id="lil_gimper_5" class="lil_gimper gimp5" onclick="gimp_on_up(5)"><%= image_tag "flower5.png" %></div>
 <div id="lil_gimper_6" class="lil_gimper gimp6" onclick="gimp_on_up(6)"><%= image_tag "flower6.png" %></div>
 <div id="lil_gimper_7" class="lil_gimper gimp7" onclick="gimp_on_up(7)"><%= image_tag "flower7.png" %></div>
+<div id="lil_gimper_8" class="lil_gimper gimp8" onclick="gimp_on_up(8)"><%= image_tag "flower8.png" %></div>
+<div id="lil_gimper_9" class="lil_gimper gimp9" onclick="gimp_on_up(9)"><%= image_tag "flower9.png" %></div>
 <button onclick="alert('gimps selected = ' + gimps_selected)">Show selected gimps</button>
-<a id='/arrange_link' href='/arrange' class="arrow left"></a>
+<a id='/arrange_link' onclick='link_to_arrange(gimps_selected)' href='#' class="arrow left"></a>
 <a id='arrange_link' onclick='link_to_arrange(gimps_selected)' href='#' class="arrow right"></a>
 
 
