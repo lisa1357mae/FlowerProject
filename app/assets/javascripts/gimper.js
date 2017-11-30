@@ -18,7 +18,7 @@ function link_to_arrange(gimp_list) {
     const element_str = element_list.join('&');
     window.location.href = `/arrange?${element_str}`;
   } else {
-    alert('gimpy GIMP GIIIIIIIIMP');
+    alert('pick flowers to continue');
   }
 }
 

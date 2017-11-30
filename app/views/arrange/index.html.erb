@@ -1,17 +1,20 @@
-<header>ARRANGE YOUR FLOWERS</header>
+<div class="jumbotron text-center">
 
+  <h2 style="color:grey;font-size:250%;">arrange your flowers</h2>
 
+  <img src="backFlower7.png" class="img-fluid">
+
+</div>
 
 <div id='arrangement_canvas'>
   <% params[:gimps].each do |gimpy_num| %>
     <div class="arrangeable_gimper" id="lil_gimper_drag_<%=gimpy_num%>"><%= image_tag "flower#{gimpy_num}.png" %></div>
     <script>dragElement(document.getElementById("lil_gimper_drag_<%=gimpy_num%>"));</script>
   <% end %>
-  <%= params[:gimps] %>
 </div>
 
-<button onclick="generate_img();">make image</button>
-<h2>SEND YOUR FLOWERS</h2>
+<!--<button onclick="generate_img();">make image</button>-->
+<h2>send your flowers</h2>
 
 <form onsubmit="return submitFlowerForm()" method="post" action="/send" id="form" class="topBefore">
 <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
