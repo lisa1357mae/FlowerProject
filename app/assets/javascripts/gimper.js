@@ -5,6 +5,7 @@ gimp_sounds = [
   new Audio('/audios/gimperSound3.wav'),
   new Audio('/audios/gimperSound4.wav'),
   new Audio('/audios/gimperSound5.wav'),
+
 ];
 
 gimps_selected = [];
