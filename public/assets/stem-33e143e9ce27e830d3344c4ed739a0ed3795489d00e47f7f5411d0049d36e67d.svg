@@ -1,0 +1,18 @@
+<!--the animated stem -->
+<div class="stem.svg">
+<svg xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+width="150px" height="400px"
+	 viewBox="0 0 200.0 210.4" style="enable-background:new 0 0 200.0 210.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#006837;}
+</style>
+<g>
+	<g>
+		<path class="path" stroke="#006837"  stroke-width="1" stroke-linejoin="round" width="0" height="-25" stroke-linecap="round" stroke-miterlimit="5" stroke-dasharray="255" stroke-dashoffset="80" fill="none" d="M64.4,206.1c5.5-27.8-4.9-54.3-25.9-72.7c-10.8-9.5-19.9-18.7-23.9-33c-3.8-13.6-3.1-28.1,0.3-41.7
+			c4.3-17.4,12.4-33.6,20.4-49.5c3.5-6.9-6.9-13-10.4-6.1C11.4,29.9-2.8,58.9,0.5,89.8C2,103.4,6.4,116.5,15,127.3
+			c9.1,11.4,22.1,18.6,29.8,31.2c8,13.2,11,29.2,8,44.3C51.3,210.4,62.9,213.6,64.4,206.1L64.4,206.1z"/>
+
+      <path class="path" stroke="#006837" stroke-width="1" stroke-linejoin="round" width="1" height="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="300" stroke-dashoffset="5" fill="none" d="M335 38.9c-43.7 0-79.1 35.4-79.1 79.1s35.4 79.1 79.1 79.1 79.1-35.4 79.1-79.1-35.4-79.1-79.1-79.1zM335 182.9c-35.8 0-64.9-29.1-64.9-64.9s29.1-64.9 64.9-64.9 64.9 29.1 64.9 64.9-29.1 64.9-64.9 64.9z"/>
+	</g>
+</g>
+</svg>
