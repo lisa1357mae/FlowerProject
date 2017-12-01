@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 body.home {
-  background-image: asset-url("smallFrontBackground.png");
+  background: asset-url("smallFrontBackground.png");
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@ body.home {
 }
 
 body.arrange {
-  background-image: asset-url("ArrBackground.png");
+  background: asset-url("ArrBackground.png");
   background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
