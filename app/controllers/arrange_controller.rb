@@ -12,7 +12,7 @@ class ArrangeController < ApplicationController
     to = Email.new(email: params[:email])
     subject = "#{params[:name]}, someone sent you flowers!"
     content = Content.new(type: 'text/plain', value: params[:message])
-    mail = Mail.new(from, subject, to, content)
+    mail = SendGrid::Mail.new(from, subject, to, content)
 
     attachment = Attachment.new
     attachment.content = params[:allflowers].split(",",2)[1]
