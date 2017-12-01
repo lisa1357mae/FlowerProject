@@ -1,6 +1,6 @@
 
 
-gimp_sounds = [
+let gimp_sounds = [
   new Audio('/audios/gimperSound2.wav'),
   new Audio('/audios/gimperSound3.wav'),
   new Audio('/audios/gimperSound4.wav'),
@@ -8,7 +8,7 @@ gimp_sounds = [
 
 ];
 
-gimps_selected = [];
+let gimps_selected = [];
 
 function link_to_arrange(gimp_list) {
   if (gimp_list.length > 0) {
@@ -54,7 +54,7 @@ function gimp_on_up(gimp_num) {
       lil_g.classList.remove('chosen');
       gimp_sound.pause();
       gimp_sound.currentTime = 0;
-      index = gimps_selected.indexOf(gimp_num);
+      const index = gimps_selected.indexOf(gimp_num);
       gimps_selected.splice(index, 1);
     }
     //recreate_arrange_link(gimps_selected);

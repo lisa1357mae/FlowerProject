@@ -1,0 +1,442 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+/* line 1, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/gimper.scss */
+.lil_gimper {
+  width: 100px;
+  position: absolute;
+  display: inline-block;
+  padding: 0 auto 0 auto;
+  transition: top 1s ease;
+  top: 20em;
+}
+
+/* line 13, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/gimper.scss */
+.gimp1 {
+  left: 12.5em;
+}
+
+/* line 17, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/gimper.scss */
+.gimp2 {
+  left: 35.5em;
+}
+
+/* line 22, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/gimper.scss */
+.gimp3 {
+  left: 65em;
+}
+
+/* line 26, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/gimper.scss */
+.gimp4 {
+  left: 20.5em;
+}
+
+/* line 30, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/gimper.scss */
+.gimp5 {
+  left: 29em;
+}
+
+/* line 34, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/gimper.scss */
+.gimp6 {
+  left: .5em;
+}
+
+/* line 38, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/gimper.scss */
+.gimp7 {
+  left: 45.5em;
+}
+
+/* line 42, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/gimper.scss */
+.gimp8 {
+  left: 53.5em;
+}
+
+/* line 46, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/gimper.scss */
+.gimp9 {
+  left: 80em;
+}
+
+/* line 51, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/gimper.scss */
+.chosen {
+  top: 5em;
+}
+
+/* line 4, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+/* line 9, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #bbb5af;
+}
+
+/* line 13, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+/* line 18, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+
+/* line 22, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input::placeholder, textarea::placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+/* line 27, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #bbb5af;
+}
+
+/* line 31, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+/* line 36, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+/* on hover placeholder */
+/* line 42, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+/* line 47, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+/* line 51, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+/* line 56, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+/* line 60, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+/* line 65, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+/* line 69, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+/* line 74, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+/* line 78, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  background: #e2dedb;
+  color: #b3aca7;
+}
+
+/* line 84, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+/* line 92, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+/* line 99, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+/* line 119, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+/* line 124, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color: #726659;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #b3aca7;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+/* line 146, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+/* line 151, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+#submit {
+  width: 502px;
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+/* line 168, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+#submit:hover {
+  color: #e2dedb;
+}
+
+/* line 172, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+#arrangement_canvas {
+  width: 500px;
+  height: 450px;
+  border: 2px solid pink;
+  margin: 50px auto 100px auto;
+  position: relative;
+  background-color: rgba(255, 255, 200, 0.5);
+}
+
+/* line 182, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+.arrangeable_gimper {
+  position: absolute;
+  z-index: 9;
+  width: 100px;
+  height: 150px;
+}
+
+/* line 189, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+#lil_gimper_drag_1 {
+  left: 0;
+}
+
+/* line 193, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+#lil_gimper_drag_2 {
+  left: 50px;
+}
+
+/* line 197, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+#lil_gimper_drag_3 {
+  left: 100px;
+}
+
+/* header div animation code */
+/* line 203, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/arrange.css.scss */
+.jumbotron.text-center {
+  position: relative;
+  -webkit-animation: floatText 30s infinite;
+  -webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes floatText {
+  from {
+    top: 20em;
+    -webkit-animation-timing-function: ease-in;
+  }
+  to {
+    top: -100em;
+    -webkit-animation-timing-function: ease-out;
+  }
+}
+/* line 4, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/buttons.scss */
+.arrow {
+  position: absolute;
+  top: 40%;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border-top: .4rem solid black;
+  border-right: .4rem solid grey;
+  box-shadow: 0 0 0 lightgray;
+  transition: all 200ms ease;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+/* line 17, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/buttons.scss */
+.arrow.left {
+  left: 0;
+  transform: translate3d(0, -50%, 0) rotate(-135deg);
+}
+/* line 22, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/buttons.scss */
+.arrow.right {
+  right: 0;
+  transform: translate3d(0, -50%, 0) rotate(45deg);
+}
+/* line 27, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/buttons.scss */
+.arrow:hover {
+  border-top: .4rem solid grey;
+  border-right: .4rem solid grey;
+  box-shadow: .2rem -.2rem 0 grey;
+}
+/* line 32, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/buttons.scss */
+.arrow:hover.left {
+  left: -.1rem;
+}
+/* line 36, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/buttons.scss */
+.arrow:hover.right {
+  right: -.1rem;
+}
+
+/* line 1, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/stem.scss */
+body {
+  background-color: #fff;
+}
+
+/* line 5, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/stem.scss */
+.bg {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 12, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/stem.scss */
+.path {
+  animation: draw 5.0s infinite;
+}
+
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+/* line 2, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/homepage.css.scss */
+body.home {
+  background: url(/assets/smallFrontBackground-06a8258cc1311eefc65b55e744dc85f68b0fc204ddf06fbc05fccb277ca32f1e.png);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  min-height: 100px;
+}
+
+/* line 12, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/homepage.css.scss */
+body.arrange {
+  background: url(/assets/ArrBackground-f2a083c96f0f629e089b927ce27ad801bd0d3cd8d029a68abe247997c2271ac3.png);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  min-height: 100px;
+}
+
+/* line 22, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/homepage.css.scss */
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 28, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/homepage.css.scss */
+h1 {
+  margin-left: 105px;
+}
+
+/* line 35, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/homepage.css.scss */
+h2 {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 40px;
+}
+
+/* Header div animation code */
+/* line 45, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/homepage.css.scss */
+.jumbotron.text-center {
+  position: relative;
+  font-family: 'Shadows Into Light', cursive;
+  -webkit-animation: floatText 30s infinite;
+}
+
+@-webkit-keyframes floatText {
+  from {
+    top: 10em;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-fill-mode: forwards;
+  }
+  to {
+    top: -100em;
+    -webkit-animation-timing-function: ease-out;
+  }
+}
+/* line 73, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/homepage.css.scss */
+.arrow.right {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+/* line 80, /Users/magenta/Development/FlowerProject/app/assets/stylesheets/homepage.css.scss */
+.arrow.left {
+  margin-left: 35px;
+  margin-right: 35px;
+}
