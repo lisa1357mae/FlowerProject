@@ -23,24 +23,7 @@ function link_to_arrange(gimp_list) {
   }
 }
 
-/*
-function recreate_arrange_link(gimp_list) {
-  if (gimp_list) {
-    let element_list = [];
-    for (let i=0; i<gimp_list.length; i++) {
-      element_list.push(`gimps[]=${gimp_list[i]}`);
-    }
-    const element_str = element_list.join('&');
-    const arrange_link = document.getElementById('arrange_link');
-    arrange_link.href = `/arrange?${element_str}`;
-    arrange_link.onclick = null;
-  } else {
-    addEventListener(arrange_link, 'onclick', function() {
-      alert('gimpy GIMP GIIIIIIIIMP');
-    });
-  }
-}
-*/
+
 function gimp_on_up(gimp_num) {
     const lil_g = document.getElementById('lil_gimper_' + gimp_num);
     const gimp_sound = gimp_sounds[Math.floor(Math.random()*gimp_sounds.length)];
