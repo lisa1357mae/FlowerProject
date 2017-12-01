@@ -1,5 +1,6 @@
 require 'dotenv/load'
 require 'sendgrid-ruby'
+require 'json'
 include SendGrid
 
 class ArrangeController < ApplicationController
@@ -8,7 +9,7 @@ class ArrangeController < ApplicationController
   end
 
   def sendFlowers
-    from = Email.new(email: 'flowers@wildflower.love')
+    from = Email.new(email: 'flowers@wildflowers.love')
     to = Email.new(email: params[:email])
     subject = "#{params[:name]}, someone sent you flowers!"
     content = Content.new(type: 'text/plain', value: params[:message])
