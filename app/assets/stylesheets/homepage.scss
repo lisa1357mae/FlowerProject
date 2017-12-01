@@ -1,6 +1,6 @@
 
 body.home {
-  background-image:url("smallFrontBackground.png");
+  background-image:asset-url("smallFrontBackground.png");
   background-color:black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,7 +10,7 @@ body.home {
 }
 
 body.arrange {
-  background-image:url("ArrBackground.png");
+  background-image:asset-url("ArrBackground.png");
   background-color:black;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,21 +25,30 @@ html {
    width: 100%;
 }
 
+h1 {
+
+  margin-left: 105px;
+
+
+}
+
 h2 {
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Shadows Into Light', cursive;
   font-size: 40px;
+
 
 }
 
 
-/* header div animation code */
+/* Header div animation code */
 .jumbotron.text-center {
 position: relative;
-font-family: 'Indie Flower', cursive;
+font-family: 'Shadows Into Light', cursive;
 
 -webkit-animation: floatText 30s infinite;
-    -webkit-animation-direction:alternate;
+
+//-webkit-animation-direction:alternate;
   }
 
 
@@ -47,7 +56,7 @@ font-family: 'Indie Flower', cursive;
  from{
         top:10em;
         -webkit-animation-timing-function: ease-in;
-
+        -webkit-animation-fill-mode: forwards;
 
    }
 
@@ -56,5 +65,22 @@ font-family: 'Indie Flower', cursive;
       top: -100em;
       -webkit-animation-timing-function: ease-out;
    }
+
+}
+
+//arrow margins
+
+.arrow.right {
+
+margin-left: 35px;
+margin-right: 35px;
+
+}
+
+.arrow.left {
+
+
+  margin-left: 35px;
+  margin-right: 35px;
 
 }
