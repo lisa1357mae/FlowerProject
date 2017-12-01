@@ -1,7 +1,7 @@
 
 body.home {
-  background-image:asset-url("smallFrontBackground.png");
-  background-color:black;
+  background-image: image-url("smallFrontBackground.png");
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -10,8 +10,8 @@ body.home {
 }
 
 body.arrange {
-  background-image:asset-url("ArrBackground.png");
-  background-color:black;
+  background-image: image-url("ArrBackground.png");
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
