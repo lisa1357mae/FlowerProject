@@ -24,7 +24,7 @@ class ArrangeController < ApplicationController
 
     sg = API.new(api_key: ENV['SENDGRID_API_KEY'])
     response = sg.client.mail._('send').post(request_body: mail.to_json)
-    redirect_to '/', notice: 'Your flowers have been delivered!'
+    redirect_to '/', notice: 'Your flowers have been delivered!!!'
   end
 
 end

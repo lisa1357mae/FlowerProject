@@ -100,3 +100,30 @@ position: fixed;
   position: fixed;
 
 }
+
+//make the notice dissapear after 3secs
+#notice{
+
+    font-size: 35px;
+    color: grey;
+    margin-top: 20px;
+
+     animation:notice 0.5s 1;
+    -webkit-animation:notice 0.5s 1;
+    animation-fill-mode: forwards;
+
+    animation-delay:3s;
+    -webkit-animation-delay:3s; /* Safari and Chrome */
+    -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes notice{
+    from {opacity :1;}
+    to {opacity :0;}
+}
+
+@-webkit-keyframes notice{
+    from {opacity :1;}
+    to {opacity :0;}
+}
