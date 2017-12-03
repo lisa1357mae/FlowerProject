@@ -12,7 +12,7 @@ class ArrangeController < ApplicationController
     from = Email.new(email: 'flowers@wildflowers.love')
     to = Email.new(email: params[:email])
     subject = "#{params[:name]}, someone sent you flowers!"
-    content = Content.new(type: 'text/plain', value: params[:message])
+    content = Content.new(type: 'text/plain', value: params[:message] + "\n\nCreate your own bouquet at www.wildflowers.love")
     mail = SendGrid::Mail.new(from, subject, to, content)
 
     attachment = Attachment.new
