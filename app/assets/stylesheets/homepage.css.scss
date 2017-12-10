@@ -1,4 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Averia+Sans+Libre|IM+Fell+English+SC');
+
+.home_container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  background: asset-url('smallFrontBackground.png') no-repeat center top;
+  background-size: contain;
+}
+
+
+
 body.home {
   background: asset-url("smallFrontBackground.png");
   background-color: black;
@@ -10,11 +21,11 @@ body.home {
   position: fixed;
   top: 0;
   left: 0;
-
   /* Preserve aspet ratio */
   min-width: 100%;
   min-height: 100%;
 }
+
 body.arrange {
   background: asset-url("ArrBackground.png");
   background-color: black;
@@ -24,7 +35,6 @@ body.arrange {
   margin:0;
   min-height: 100px;
   min-width: 100%;
-
 }
 
 html {
@@ -34,15 +44,15 @@ html {
 }
 
 h1 {
-
-  margin-left: 105px;
-
+text-align: center;
+color: #FFF0A5;
 
 }
 
 h2 {
   text-align: center;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Averia Sans Libre', cursive;
+  font-family: 'IM Fell English SC', serif;
   font-size: 40px;
 
 
@@ -52,27 +62,28 @@ h2 {
 
 /* Header div animation code */
 .jumbotron.text-center {
-position: relative;
-font-family: 'Shadows Into Light', cursive;
+  position: relative;
+  font-family: 'Averia Sans Libre', cursive;
+  font-family: 'IM Fell English SC', serif;
+  color: #FFF0A5;
+  -webkit-animation: floatText 10s infinite;
 
--webkit-animation: floatText 30s infinite;
-
-//-webkit-animation-direction:alternate;
+  -webkit-animation-direction:alternate;
   }
 
 
 @-webkit-keyframes floatText {
  from{
-        top:10em;
-        -webkit-animation-timing-function: ease-in;
-        -webkit-animation-fill-mode: forwards;
+      top:10em;
+      -webkit-animation-timing-function: ease-in;
+      -webkit-animation-fill-mode: forwards;
 
    }
 
 
    to {
       top: -100em;
-      -webkit-animation-timing-function: ease-out;
+     -webkit-animation-timing-function: ease-out;
    }
 
 }
@@ -105,7 +116,7 @@ position: fixed;
 #notice{
 
     font-size: 35px;
-    color: grey;
+    color: #FFF0A5;;
     margin-top: 20px;
 
      animation:notice 0.5s 1;
@@ -124,6 +135,33 @@ position: fixed;
 }
 
 @-webkit-keyframes notice{
+    from {opacity :1;}
+    to {opacity :0;}
+}
+
+//make the notice dissapear after 3secs
+#titleAlert{
+text-align: center;
+    font-size: 35px;
+    color: #FFF0A5;;
+    margin-top: 20px;
+
+     animation:titleAlert 0.5s 1;
+    -webkit-animation:titleAlert 0.5s 1;
+    animation-fill-mode: forwards;
+
+    animation-delay:3s;
+    -webkit-animation-delay:3s; /* Safari and Chrome */
+    -webkit-animation-fill-mode: forwards;
+
+}
+
+@keyframes titleAlert{
+    from {opacity :1;}
+    to {opacity :0;}
+}
+
+@-webkit-keyframes titleAlert{
     from {opacity :1;}
     to {opacity :0;}
 }
