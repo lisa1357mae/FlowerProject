@@ -9,8 +9,7 @@
   <% params[:gimps].each do |gimpy_num| %>
     <div class="arrangeable_gimper" id="lil_gimper_drag_<%=gimpy_num%>"><%= image_tag "flower#{gimpy_num}.png" %></div>
     <script>dragElement(document.getElementById("lil_gimper_drag_<%=gimpy_num%>"));</script>
-
-  <% end %>
+    <% end %>
 </div>
 <br>
 <br>
