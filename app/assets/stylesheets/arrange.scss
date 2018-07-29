@@ -200,14 +200,14 @@ textarea:hover {
 
 
 /* header div animation code */
-.jumbotron.text-center {
-position: relative;
--webkit-animation: floatText 30s infinite;
-    -webkit-animation-direction:alternate;
-  }
+//.jumbotron.text-center {
+//position: relative;
+//-webkit-animation: floatText 30s infinite;
+    //-webkit-animation-direction:alternate;
+  //}
 
 
-@-webkit-keyframes floatText {
+/*@-webkit-keyframes floatText {
  from{
         top:20em;
         -webkit-animation-timing-function: ease-in;
@@ -219,3 +219,4 @@ position: relative;
    }
 
 }
+*/

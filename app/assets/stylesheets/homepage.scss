@@ -47,6 +47,7 @@ html {
 h1 {
 text-align: center;
 color: #FFF0A5;
+font-size: 55px;
 
 }
 
@@ -54,8 +55,8 @@ h2 {
   text-align: center;
   font-family: 'Averia Sans Libre', cursive;
   font-family: 'IM Fell English SC', serif;
-  font-size: 40px;
-
+  font-size: 55px;
+  color:#FFF0A5;
 
 
 }
@@ -67,27 +68,27 @@ h2 {
   font-family: 'Averia Sans Libre', cursive;
   font-family: 'IM Fell English SC', serif;
   color: #FFF0A5;
-  -webkit-animation: floatText 10s infinite;
+  //-webkit-animation: floatText 10s infinite;
 
-  -webkit-animation-direction:alternate;
-  }
-
-
-@-webkit-keyframes floatText {
- from{
-      top:10em;
-      -webkit-animation-timing-function: ease-in;
-      -webkit-animation-fill-mode: forwards;
-
-   }
-
-
-   to {
-      top: -100em;
-     -webkit-animation-timing-function: ease-out;
-   }
-
+  //-webkit-animation-direction:alternate;
 }
+
+
+//@-webkit-keyframes floatText {
+ //from{
+      //top:10em;
+    //  -webkit-animation-timing-function: ease-in;
+    //  -webkit-animation-fill-mode: forwards;
+
+   //}
+
+
+   //to {
+    //  top: -100em;
+    // -webkit-animation-timing-function: ease-out;
+   //}
+
+//}
 
 //arrow margins
 
@@ -143,19 +144,20 @@ position: fixed;
 //make the notice dissapear after 3secs
 #titleAlert{
 text-align: center;
-    font-size: 35px;
-    color: #FFF0A5;;
-    margin-top: 20px;
-
-     animation:titleAlert 0.5s 1;
+    font-size: 65px;
+    color: #FFF0A5;
+    margin-top: 85px;
+}
+/*
+    animation:titleAlert 0.5s 1;
     -webkit-animation:titleAlert 0.5s 1;
     animation-fill-mode: forwards;
 
     animation-delay:3s;
-    -webkit-animation-delay:3s; /* Safari and Chrome */
+    -webkit-animation-delay:3s; /* Safari and Chrome
     -webkit-animation-fill-mode: forwards;
-
 }
+
 
 @keyframes titleAlert{
     from {opacity :1;}
@@ -166,6 +168,7 @@ text-align: center;
     from {opacity :1;}
     to {opacity :0;}
 }
+*/
 
 /* For desktop: */
   .col-1 {width: 8.33%;}
