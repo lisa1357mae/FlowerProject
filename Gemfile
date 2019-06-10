@@ -58,7 +58,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bourbon'
 gem 'inline_svg'
 gem 'dotenv'
-gem 'devise'
+gem "devise", ">= 4.6.0"
 gem 'sendgrid-ruby'
 gem 'carrierwave', '~> 1.0'
 gem 'carrierwave-mimetype-fu'
